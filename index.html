@@ -1,3 +1,46 @@
-<a class="download-btn" href="minecraft.zip" download>
-    다운로드
-</a>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft Download</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0f172a;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 32px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .count {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            마인크래프트 최신 버전 다운로드 중입니다...
+        </div>
+        <div class="count">
+            방문 횟수: <span id="visitCount">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
