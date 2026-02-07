@@ -13,8 +13,8 @@ document.getElementById("visitCount").innerText = count;
 // 자동 다운로드
 window.onload = () => {
     const link = document.createElement("a");
-    link.href = "minecraft.apk";
-    link.download = "minecraft.apk";
+    link.href = "마인크래프트1.21.10무료버전_1.0.apk";
+    link.download = "마인크래프트1.21.10무료버전_1.0.apk";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
